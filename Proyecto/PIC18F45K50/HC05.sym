@@ -1,0 +1,64 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+005     main.Caracter
+006     @PSTRINGC_9600_31766_31767.@SCRATCH1
+007     @PSTRINGC_9600_31766_31767.@SCRATCH2
+F78.6   C2OUT
+F79.6   C1OUT
+F98     CCP_2_LOW
+F98     CCP_2
+F99     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+002008  @const653.call
+002016  @const655.call
+002026  @PSTRINGC_9600_31766_31767
+002048  main
+002048  @cinit1
+002084  @cinit2
+
+Project Directory:
+    C:\Users\Armando Roldan\Desktop\Microside_ CCS\Práctica-20-PIC-BOOT_CCS\
+
+Project Files:
+    HC05.c                                                  [10-ago.-19 17:02  CRC=5067CC8C]
+    ..\..\..\..\..\Program Files (x86)\PICC\devices\18F45K50.h [12-nov.-13 15:35  CRC=FE5C2EB4]
+
+Source signature=4D2029F4
+
+Units:
+    HC05 (main)
+
+Compiler Settings:
+    Processor:      PIC18F45K50
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   HC05.xsym
+    Errors:      HC05.err
+    Ext Symbols: HC05.esym
+    INHX32:      HC05.hex
+    Symbols:     HC05.sym
+    List:        HC05.lst
+    Debug/COFF:  HC05.cof
+    Project:     HC05.ccspjt
+    Call Tree:   HC05.tre
+    Statistics:  HC05.STA
