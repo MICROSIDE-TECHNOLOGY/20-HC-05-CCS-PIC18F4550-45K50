@@ -1,7 +1,10 @@
-/*
-  AUTOR: MICROSIDE TECHNOLOGY S.A. DE C.V.
-  FECHA: JUNIO 2019
-*/
+/************************************************************************************************
+Company:
+Microside Technology Inc.
+Product Revision  :  1
+Device            :  X-TRAINER
+Driver Version    :  1.0
+************************************************************************************************/
 /**************************************************************************
 Esta práctica consiste en realizar el envio de datos por medio de un módulo 
 Bluetooth, usando el protocolo de comunicación serial UART, para enviar un 
@@ -15,7 +18,7 @@ y un segundo comando para preguntar el estado de un botón.
 #org 0x0000,0x1FFF {}                       // Reserva espacio en memoria para el bootloader 
 //-------------------------------------------------------------------------------
 #USE RS232(stream=SERIE, BAUD=9600, PARITY=N, XMIT=PIN_C6, RCV=PIN_C7,BITS=8)
-#define LED pin_A1
+#define LED pin_A4
 #define Boton pin_A2
 
 void main(void)
@@ -59,4 +62,3 @@ while (TRUE)
        
   } 
 }
-
