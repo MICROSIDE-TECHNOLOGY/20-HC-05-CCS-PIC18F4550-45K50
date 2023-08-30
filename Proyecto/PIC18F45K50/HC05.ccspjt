@@ -1,19 +1,87 @@
 [PROJECT]
 Target=HC05.hex
 Processor_Text=PIC18F45K50
-CCSVersion=5.015
+CCSVersion=5.115d
 Compiler=PCH
+Development_Mode=
+ToolSuite=CCS
+CCSVerions=5.115d
 [Target Data]
 FileList=HC05.c
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
 [Directories]
-Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\
+Include=
+Library=
+LinkerScript=
+output=
 [HC05.c]
 Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
 [mru-list]
 1=HC05.c
 [Opened Files]
 1=HC05.c
 2=
+t1=16
+Count=1
+
+[fileformats]
+forcecoff=0
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[ProjectLog]
+Days=1
+D1=30-08-2023
+D1_L=12
+D1_L1=[61918]Project Opened.
+D1_L2=[61931]Started Editing.
+D1_L3=[61958]Stopped Editing.
+TotalEdit=3
+TotalDebug=0
+D1_E=3
+D1_D=0
+D1_L4=[61979]Project Closed.
+D1_L5=[61979]Project Opened.
+D1_L6=[62010]Project Closed.
+D1_L7=[62071]Project Opened.
+D1_L8=[62079]Project Closed.
+D1_L9=[62095]Project Opened.
+D1_L10=[62102]Started Editing.
+D1_L11=[62219]Stopped Editing.
+D1_L12=[62219]Project Closed.
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+buildcount=2
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+[CompilerVersion]
+Fixed=
+[C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC18F\20-HC-05-CCS-PIC18F4550-45K50\Proyecto\PIC18F45K50\HC05]
+Type=4
 [Units]
 Count=1
 1=HC05 (main)

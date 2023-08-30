@@ -3,53 +3,61 @@
 001     _RETURN_
 002     @SCRATCH
 003     @SCRATCH
-005     main.Caracter
-006     @PSTRINGC_9600_31766_31767.@SCRATCH1
-007     @PSTRINGC_9600_31766_31767.@SCRATCH2
-F78.6   C2OUT
-F79.6   C1OUT
-F98     CCP_2_LOW
-F98     CCP_2
-F99     CCP_2_HIGH
+004-005 @sprintf_string
+006     main.Caracter
+007     @PSTRINGC_9600_31766_31767.@SCRATCH1
+008     @PSTRINGC_9600_31766_31767.@SCRATCH2
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
 FBE     CCP_1
 FBE     CCP_1_LOW
 FBF     CCP_1_HIGH
 FE1-FE2 @READ_PACKED_MEMORY.P1
 FE1-FE2 @WRITE_PACKED_MEMORY.P2
 FE9-FEA @READ_PROGRAM_MEMORY.P1
-FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
 FE9-FEA @WRITE_PACKED_MEMORY.P3
-FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FE9-FEA @READ_PACKED_MEMORY.P4
 FF6-FF8 @READ_PROGRAM_MEMORY.P1
 FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
 
 ROM Allocation:
-002008  @const653.call
-002016  @const655.call
+002008  @const738.call
+002016  @const743.call
 002026  @PSTRINGC_9600_31766_31767
 002048  main
 002048  @cinit1
-002084  @cinit2
+00206E  @cinit2
 
 Project Directory:
-    C:\Users\Armando Roldan\Desktop\Microside_ CCS\Práctica-20-PIC-BOOT_CCS\
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC18F\20-HC-05-CCS-PIC18F4550-45K50\Proyecto\PIC18F4550\
 
 Project Files:
-    HC05.c                                                  [10-ago.-19 17:02  CRC=5067CC8C]
-    ..\..\..\..\..\Program Files (x86)\PICC\devices\18F45K50.h [12-nov.-13 15:35  CRC=FE5C2EB4]
+    HC05.c                                                  [30-ago.-23 17:11  CRC=35ABA5F7]
+    ..\..\..\..\..\..\..\..\..\..\Program Files (x86)\PICCDEMO\Devices\18F4550.h [02-may.-23 08:34  CRC=3BACED27]
 
-Source signature=4D2029F4
+Source signature=AD058045
+Program memory checksum=0000
+Hex file CRC=4451
 
 Units:
-    HC05 (main)
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC18F\20-HC-05-CCS-PIC18F4550-45K50\Proyecto\PIC18F4550\HC05 (main)
 
 Compiler Settings:
-    Processor:      PIC18F45K50
+    Processor:      PIC18F4550
     Pointer Size:   16
     ADC Range:      0-255
     Opt Level:      9
     Short,Int,Long: UNSIGNED: 1,8,16
     Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
 
 Output Files:
     XREF file:   HC05.xsym

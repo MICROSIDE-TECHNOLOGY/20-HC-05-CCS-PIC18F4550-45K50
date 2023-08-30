@@ -1,5 +1,6 @@
 青HC05
-   青main  0/162  Ram=0
+   青main  0/130  Ram=1
       団@cinit1  (Inline)  Ram=0
+      団@cinit2  (Inline)  Ram=0
       団@PSTRINGC_9600_31766_31767  0/34  Ram=2
       青@PSTRINGC_9600_31766_31767  0/34  Ram=2
